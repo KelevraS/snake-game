@@ -44,8 +44,8 @@ namespace Assets.Client.Scripts.View
 
         private void Update()
         {
-            vertical = Input.GetAxis(VerticalInputKey);
-            horizontal = Input.GetAxis(HorizontalInputKey);
+            vertical = Input.GetAxisRaw(VerticalInputKey);
+            horizontal = Input.GetAxisRaw(HorizontalInputKey);
         }
 
     }
